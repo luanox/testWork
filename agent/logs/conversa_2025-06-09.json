@@ -1,0 +1,92 @@
+[
+  {
+    "dataHora": "2025-06-09T21:21:06.152Z",
+    "frase": "oi",
+    "resposta": "Olá! O que você precisa hoje?",
+    "intencao": "duvida_uso",
+    "quem_chamou": "roteador",
+    "quem_respondeu": "superagent",
+    "resultado": {},
+    "debugLog": [
+      {
+        "etapa": "mensagem_recebida",
+        "frase": "oi"
+      },
+      {
+        "etapa": "inicio_roteador",
+        "frase": "oi"
+      },
+      {
+        "etapa": "intencao_social_detectada",
+        "intencao": "saudacao"
+      },
+      {
+        "etapa": "roteador_decisao",
+        "para": "superagent",
+        "motivo": "saudacao"
+      }
+    ]
+  },
+  {
+    "dataHora": "2025-06-09T21:22:18.387Z",
+    "frase": "comprei 300 reais de pão",
+    "resposta": "✅ Registro salvo!\n  🆔 Código: *M7LBT9*\n  📅 09/06/2025\n  💰 Tipo: Saída\n  📝 Descrição: comprei 300 reais de pão\n  🏷️ Categoria: Alimentação\n  📌 Valor: R$ 300.00",
+    "intencao": "registrar_saida",
+    "quem_chamou": "roteador",
+    "quem_respondeu": "agent",
+    "resultado": {
+      "intencao": "registrar_saida",
+      "tipo": "saida",
+      "valor": 300,
+      "descricao": "comprei 300 reais de pão",
+      "categoria": "Alimentação",
+      "data": "2025-06-09",
+      "periodo": null,
+      "similaridade": 1,
+      "codigo": "M7LBT9"
+    },
+    "debugLog": [
+      {
+        "etapa": "mensagem_recebida",
+        "frase": "comprei 300 reais de pão"
+      },
+      {
+        "etapa": "inicio_roteador",
+        "frase": "comprei 300 reais de pão"
+      },
+      {
+        "etapa": "categoria_classificada",
+        "categoria": "Alimentação"
+      },
+      {
+        "etapa": "dados_extraidos",
+        "via": "embedding",
+        "intencao": "registrar_saida",
+        "tipo": "saida",
+        "valor": 300,
+        "descricao": "comprei 300 reais de pão",
+        "categoria": "Alimentação",
+        "data": "2025-06-09",
+        "periodo": null,
+        "similaridade": 1
+      },
+      {
+        "etapa": "fim_interpretar",
+        "via": "embedding",
+        "intencao": "registrar_saida",
+        "tipo": "saida",
+        "valor": 300,
+        "descricao": "comprei 300 reais de pão",
+        "categoria": "Alimentação",
+        "data": "2025-06-09",
+        "periodo": null,
+        "similaridade": 1
+      },
+      {
+        "etapa": "roteador_decisao",
+        "para": "agent",
+        "intencao": "registrar_saida"
+      }
+    ]
+  }
+]

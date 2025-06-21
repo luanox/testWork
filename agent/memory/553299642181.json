@@ -1,0 +1,42 @@
+[
+  {
+    "role": "user",
+    "content": "quero exluir o ultimo registro"
+  },
+  {
+    "role": "assistant",
+    "content": "Você pode confirmar se deseja realmente excluir o último registro?"
+  },
+  {
+    "role": "user",
+    "content": "quero editar meu ultimo registro"
+  },
+  {
+    "role": "assistant",
+    "content": "Você pode me informar qual campo do último registro deseja editar?"
+  },
+  {
+    "role": "user",
+    "content": "oi"
+  },
+  {
+    "role": "assistant",
+    "content": "Olá! Como posso ajudar você hoje?"
+  },
+  {
+    "role": "user",
+    "content": "ok"
+  },
+  {
+    "role": "assistant",
+    "content": "Se precisar de algo, é só me chamar."
+  },
+  {
+    "role": "user",
+    "content": "oi"
+  },
+  {
+    "role": "assistant",
+    "content": "Olá! O que você precisa hoje?"
+  }
+]
